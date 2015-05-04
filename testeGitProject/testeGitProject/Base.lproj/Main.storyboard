@@ -135,7 +135,7 @@
             </objects>
             <point key="canvasLocation" x="750.5" y="453.5"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Item-->
         <scene sceneID="dcy-C8-VbR">
             <objects>
                 <tableViewController id="H38-6T-hDZ" sceneMemberID="viewController">
@@ -171,6 +171,7 @@
                             <outlet property="delegate" destination="H38-6T-hDZ" id="5sa-i5-7EH"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="6Eu-gy-eQa"/>
                     <toolbarItems>
                         <barButtonItem title="Item" id="zGm-Bw-DhE"/>
                     </toolbarItems>
@@ -196,6 +197,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="Cwe-Wr-7nu" kind="relationship" relationship="viewControllers" id="dOG-EB-QER"/>
+                        <segue destination="H38-6T-hDZ" kind="relationship" relationship="viewControllers" id="5ft-Sy-Kad"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
